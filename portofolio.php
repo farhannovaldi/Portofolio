@@ -70,8 +70,6 @@
                 <a href="https://github.com/farhannovaldi/Aplikasi-Data-Negara" target="_blank">View Project</a>
             </div>
         </section>
-
-
         <footer>
             <p>Contact me at: <a href="mailto:farhannovaldi002@gmail.com">farhannovaldi002@gmail.com</a></p>
             <p>Find me on <a href="https://www.linkedin.com/in/farhan-novaldi-08b091326/" target="_blank">LinkedIn</a> | <a href="https://github.com/farhannovaldi" target="_blank">GitHub</a></p>
