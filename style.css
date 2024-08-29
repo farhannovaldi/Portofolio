@@ -12,99 +12,115 @@ body {
     line-height: 1.6;
 }
 
+/* Header */
 header {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.9);
     padding: 20px;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
+    color: #00bfff; /* Neon blue for a futuristic feel */
 }
 
 header p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    color: #b0b0b0; /* Light grey for contrast */
 }
 
+/* Container */
 .container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
+/* Sections */
 section {
     padding: 40px 0;
 }
 
 h2 {
     margin-bottom: 20px;
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-align: center;
+    color: #00bfff; /* Neon blue for consistency */
 }
 
+/* Project Items */
 .project-item {
     margin-bottom: 40px;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8);
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
 }
 
 .project-item h3 {
     margin-bottom: 10px;
-    font-size: 1.8rem;
+    font-size: 2rem;
+    color: #00bfff; /* Neon blue for headers */
 }
 
 .project-item p {
     margin-bottom: 10px;
+    color: #e0e0e0; /* Slightly lighter text for readability */
 }
 
+/* Project Images */
 .project-images {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
     margin-bottom: 20px;
 }
 
 .project-images img {
     flex: 1;
-    max-width: calc(33% - 10px);
+    max-width: calc(50% - 15px); /* Adjusted for a better fit */
     height: auto;
     border-radius: 10px;
     object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
+/* View Project Button */
 .view-project-btn {
     display: inline-block;
-    background: #00bfff;
+    background: linear-gradient(135deg, #00bfff, #1e90ff); /* Gradient effect for a modern look */
     color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 12px 24px;
+    border-radius: 6px;
     text-decoration: none;
-    transition: background 0.3s;
+    transition: background 0.3s, transform 0.3s;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 .view-project-btn:hover {
-    background: #1e90ff;
+    background: linear-gradient(135deg, #1e90ff, #00bfff);
+    transform: scale(1.05); /* Slightly enlarges button on hover */
 }
 
+/* Footer */
 footer {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.9);
     padding: 20px;
     text-align: center;
-    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.6);
 }
 
 footer a {
-    color: #00bfff;
+    color: #00bfff; /* Neon blue for links */
     text-decoration: none;
-    transition: color 0.3s;
+    transition: color 0.3s, text-shadow 0.3s;
 }
 
 footer a:hover {
     color: #1e90ff;
+    text-shadow: 0 0 5px rgba(0, 191, 255, 0.7); /* Glow effect on hover */
 }
